@@ -1,0 +1,23 @@
+﻿/*body {  color: red;
+        text-align:center;
+}*/
+
+#c1 {
+    
+}
+
+.para { color: blue;
+}
+
+.th1 { text-align:center;
+}
+/*#mydiv::first-letter { font-size: 100px;
+}*/
+
+/*.hvr:hover {font-size: 50px;
+}*/
+
+:hover { color:red;
+}
+/*div:hover { font-size: 50px;
+}*/
