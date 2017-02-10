@@ -6,30 +6,147 @@
     <meta charset ="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first Website</title>
-    <script src="/js/myjs.js"></script>
-    <!--<link href ="/css/StyleSheet.css" rel="stylesheet" /> -->
-    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href ="/css/StyleSheet.css"  /> 
+    <link href="Content/bootstrap.css" rel="stylesheet"  />
+    <!--<script src="/js/myjs.js" ></script>-->
+   <script type="text/javascript">
+    <!--
+        function Add(x, y) {
+            return x + y;
+        }
+        //alert(Add(3, 2));
+    //-->
+    </script>
+
+    	<!--<script type='text/javascript'>
+    	    function howdy() {
+    	        alert("Boom Bam");
+    	    }
+
+         </script>-->
 </head>
 <body class="pagination">
     <script type="text/javascript">
-      //ocument.getElementById('demo').disabled =false = Date();
+        //ocument.getElementById('demo').disabled =false = Date();
         //alert("Hello World");
         //alert(prompt("Do you feel lucky?",""));
         //confirm("Do you feel lucky?");
     </script>
     <p class="para"> Testing 123 </p>
+    <br />
+    <p>I'll find <var>you</var> </p>
 
-    <div id="menu" class="col-md-4">
+    <h3>Common Vehicles</h3>
+   
+    <dl>
+        <dt>Boat</dt>
+        <dd>A small vehicle propelled on water by oars, sails, or an engine</dd>
+        <dt>Car</dt>
+        <dd>An automobile</dd>
+        <dd>
+            A passenger vehicle designed for operation on ordinary roads
+            and typically having four wheels and an engine
+        </dd>
+        <dt>Bicycle</dt>
+        <dt>Bike</dt>
+        <dd>
+            A vehicle with two wheels in tandem, typically propelled by pedals
+            connected to the rear wheel by a chain, and having handlebars
+            for steering and a saddlelike seat
+        </dd>
+    </dl>
+
+    <br />
+    <div>
+        <p id='para2'>stuff goes here</p>
+        <button id='btn1'>Click Me!</button>
+        <hr />
+
+        <p>
+            The <abbr title='radio detection and ranging'>radar</abbr>
+            must be repaired <abbr title='as soon as possible'>ASAP</abbr>
+            by Contoso, <abbr title='Incorporated'>Inc.</abbr>
+            this is a <blockquote>quote</blockquote> and so is <q cite="Noel G">this.</q>
+
+        </p>
+
+        <blockquote>
+            O Romeo, Romeo, wherefore art thou Romeo?<br />
+            Deny thy father and refuse thy name;<br />
+            Key
+            Terms
+            Or if thou wilt not, be but sworn my love<wbr />
+            And I'll no longer be a Capulet.<br />
+            <footer>
+                <p>
+                    by William Shakespeare,
+                    <cite>Romeo and Juliet</cite> Act 2, scene 2
+                </p>
+            </footer>
+        </blockquote>
+
+        <article>
+          
+            <code class="keepWhiteSpace">
+                sayHello('Mom');
+                function sayHello(name)
+                {
+                alert('Hello ' + name + '!');
+                }
+            </code>
+            <br />
+            <samp class="keepWhiteSpace">
+                Hello Mom! 
+            </samp>
+        </article>
+        <br />
+        <!--    <button id='Button1' onclick=" var button =  this.document.getElementById('btn1');
+        button.addEventListener('click', howdy(), false);">Click Me!</button>-->
+        <!-- onclick="document.getElementById('para2').innerHTML = howdy()"-->
+        <!--        <script type="text/javascript">
+        var btn = this.document.getElementById('btn1');
+                btn.addEventListener('click', howdy(), false);
+
+                function howdy() {
+                   alert('Howdy, punk');
+                }
+                    </script>
+            -->
+    </div>
+
+    Number">VIN</abbr></dfn>
+that is unique. Over the years, the
+<abbr title="Vehicle Identification Number">VIN</abbr>Number">VIN</abbr></dfn>
+that is unique. Over the years, the
+<abbr title="Vehicle Identification Number">VIN</abbr>Number">VIN</abbr></dfn>
+    that is unique. Over the years, the
+    <abbr title="Vehicle Identification Number">VIN</abbr>
+    has had different formats,
+    based on the vehicle manufacturer.
+    </p>
+    <p>
+        In the United States, the <a href="#vin">
+            <abbr title="Vehicle Identification Number">VIN</abbr>
+        </a>
+        was standardized to a 17 character format where
+        the 10th character of the
+        <abbr title="Vehicle Identification Number">VIN</abbr>
+        represents the year of the vehicle.
+    </p>
+
+    <div id="menu">
         <ul>
             <li><a href="/pages/About.html" target="_blank" >About Me</a></li>
             <li><a href="/pages/links.html" target="_blank" >Links</a></li>
-            <li></li>
-            <li></li>
         </ul>
     </div>
 
-    <div id="mydiv" class="hvr  col-md-4" >boom1</div>
-    <div id="mydiv2" class="hvr col-md-4">boom2</div>
+    <a href='http://contoso.com' >Link 1</a><br />
+    <a>Link 2</a><br />
+    <a href='http://microsoft.com' >Link 3</a><br />
+
+    <div id="mydiv" class="hvr" >boom1</div>
+    <div id="mydiv2" class="hvr2">boom2</div>
 
     <input id="box" type="text" disabled="disabled" /> <input type="checkbox" value="Muhahahaha" name="fruit"  checked />
     <button id="but" name="Blam" class="mybutton" disabled>Inactive</button>
@@ -37,15 +154,15 @@
     <button name="Blam" class="mybutton2" onclick ="document.getElementById('but').disabled =false"  >Click Me</button>
 
     <br>
-   <p id="demo"> 
+   <p id="demo">
        10 mph
    </p>
     <!-- basic mailto with message -->
 <a href="mailto:noelg@guysuco.com?subject=Notice&body=Holla at ya boi.&cc=camillai@guysuco.com">Contact SnowyG.</a>
 
-    <div class="col-md-4">
+    <div ><!--class="col-md-4"-->
 <table class="tables" id="tbl1">
-    
+
     <tr>
     <th>Apples</th><th>Bananas</th><th>Oranges</th>
   </tr>
@@ -63,6 +180,9 @@
    <footer><p>This is a footer</p>
     <p>To learn more, click <a href="/pages/links.html" target="frame">here</a>. </p>
  <p>To go up, <a href="#mydiv2" >click here</a>. </p>
-   </footer> 
-  </body>  
+   </footer>
+
+
+    <script src="/js/myjs.js" ></script>
+</body>  
 </html>
